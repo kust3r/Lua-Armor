@@ -1,0 +1,1 @@
+local function values(x)return x,nil,x+1;end;local first, middle, last=values(4);local object={name="Lurapy",["count"]=3,(values(8))};object.label=function(self, prefix)return prefix..self.name;end;repeat local nextValue=first-1;first=nextValue;until nextValue==0;print(object:label("Hello "),first,middle,last);

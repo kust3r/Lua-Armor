@@ -1,0 +1,47 @@
+.level-popover{z-index:60;width:min(300px,calc(100vw - 32px));max-height:var(--radix-popover-content-available-height);overflow:clip;overflow-clip-margin:72px;padding:16px 15px 14px;border-radius:16px;border:1px solid hsl(var(--level-border) / .12);background:hsl(var(--level-surface) / .95);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);color:hsl(var(--popover-foreground));box-shadow:var(--level-popover-shadow);font:14px/1.5 var(--font-sans);transform-origin:var(--radix-popover-content-transform-origin);letter-spacing:0}
+.level-popover[data-state=open]{animation:level-popover-in 160ms ease-out}
+.level-popover[data-state=closed]{animation:level-popover-out 160ms ease-out}
+.level-slider-heading{display:grid;grid-template-columns:minmax(0,1fr) 24px;align-items:start;gap:4px}
+
+.level-slider-heading-text{min-width:0;text-align:center}
+.level-slider-title{margin:0;color:hsl(var(--level-title));font:600 18px/23px var(--font-sans)}
+.level-slider-description{display:flex;align-items:center;justify-content:center;gap:3px;min-height:23px;margin:0;color:hsl(var(--level-secondary));font-size:13px;line-height:23px;white-space:nowrap;cursor:default}
+.level-popover .level-slider-reset{width:24px;height:24px;min-width:24px;padding:0;border:0;border-radius:50%;background:transparent;color:hsl(var(--level-icon));box-shadow:none}
+.level-popover .level-slider-reset:hover{background:transparent;color:hsl(var(--level-secondary))}
+.level-popover .level-slider-reset svg{width:16px;height:16px}
+.level-slider{position:relative;display:flex;align-items:center;width:100%;height:33px;margin-top:8px;touch-action:none;user-select:none;cursor:pointer}
+.level-slider-track{position:relative;flex:1;height:29px;border-radius:999px;overflow:hidden;background:hsl(var(--level-empty));container-type:inline-size}
+.level-slider-range{position:absolute;height:100%;border-radius:999px 0 0 999px;overflow:hidden;clip-path:inset(0 max(0px,calc((var(--level-progress) - .5)*33px)) 0 0);background:hsl(var(--level-lilac))}
+.level-slider-marks{position:absolute;inset:0;display:flex;align-items:center;justify-content:space-between;padding:0 13.5px;pointer-events:none;opacity:1;transition:opacity 420ms ease-in-out}
+.level-slider-marks i{flex:none;width:6px;height:6px;border-radius:50%;background:hsl(var(--level-star) / .5)}
+.level-popover[data-level="3"] .level-slider-marks{opacity:0}
+.level-nebula,.level-starfield{position:absolute;left:0;top:0;bottom:0;width:100cqw;pointer-events:none}
+.level-nebula{background:var(--level-nebula-gradient);background-size:145% 160%;opacity:0;transition:opacity 420ms ease-in-out;animation:level-nebula-drift 24s ease-in-out infinite;will-change:transform,background-position}
+.level-starfield{opacity:0;transition:opacity 420ms ease-in-out;animation:level-star-drift 24s ease-in-out infinite;will-change:transform}
+.level-popover[data-level="3"] .level-nebula,.level-popover[data-level="3"] .level-starfield{opacity:1}
+.level-slider-thumb{position:relative;isolation:isolate;display:block;width:33px;height:33px;border-radius:50%;background:hsl(var(--level-thumb));box-shadow:var(--level-thumb-shadow);cursor:grab;outline:none;transition:transform 120ms ease-out}
+.level-slider-thumb::after{content:"";position:absolute;inset:0;z-index:1;border-radius:inherit;background:hsl(var(--level-thumb));pointer-events:none}
+.level-slider-thumb:active{cursor:grabbing}
+.level-slider[data-dragging=true] .level-slider-thumb{transform:scale(1.05)}
+.level-slider-thumb:focus-visible{outline:2px solid hsl(var(--ring));outline-offset:3px}
+.level-slider[data-ready=true]>span:last-child{transition:left 120ms cubic-bezier(.2,.85,.3,1.05),transform 120ms ease-out}
+.level-slider[data-ready=true] .level-slider-range{transition:right 120ms cubic-bezier(.2,.85,.3,1.05)}
+.level-slider[data-dragging=true]>span:last-child,.level-slider[data-dragging=true] .level-slider-range{transition:none}
+.level-particle{position:absolute;display:block;width:var(--star-size);height:var(--star-size);border-radius:50%;background:hsl(var(--level-star));left:var(--px);top:var(--py);opacity:var(--star-opacity);animation:level-star-twinkle var(--star-duration) ease-in-out var(--star-delay) infinite,level-particle-float var(--star-duration) ease-in-out var(--star-delay) infinite}
+.level-particle:nth-child(2n){animation-direction:normal,reverse}
+.level-particle[data-glow=true]{box-shadow:var(--level-star-shadow)}
+.level-thumb-sparks{position:absolute;inset:0;z-index:0;pointer-events:none;visibility:hidden;opacity:0}
+.level-popover[data-level="3"] .level-thumb-sparks[data-emitting=true]{visibility:visible;opacity:1}
+.level-thumb-sparks i{position:absolute;left:50%;top:50%;width:4px;height:4px;margin:-2px 0 0 -2px;border-radius:50%;background:hsl(var(--level-lilac));box-shadow:var(--level-star-shadow);opacity:0}
+.level-thumb-sparks i:nth-child(3n){width:3px;height:3px;margin:-1.5px 0 0 -1.5px;background:hsl(var(--level-star))}
+.level-popover[data-level="3"] .level-thumb-sparks[data-emitting=true] i{animation:level-spark-emit 420ms cubic-bezier(.3,.1,.4,1) both}
+.level-thumb-sparks i:nth-child(2n){animation-delay:60ms}
+.level-thumb-sparks i:nth-child(3n){animation-delay:120ms}
+@keyframes level-star-twinkle{0%,100%{opacity:calc(var(--star-opacity)*.45)}50%{opacity:var(--star-opacity)}}
+@keyframes level-spark-emit{0%{opacity:1;transform:translate(0,0) scale(.7)}30%{opacity:1}55%{opacity:.85}80%{opacity:.4}100%{opacity:0;transform:translate(var(--sx),var(--sy)) scale(1)}}
+@keyframes level-popover-in{from{opacity:0;transform:translateY(6px) scale(.96)}to{opacity:1;transform:translateY(0) scale(1)}}
+@keyframes level-popover-out{to{opacity:0;transform:translateY(6px) scale(.96)}}
+@keyframes level-nebula-drift{0%,100%{background-position:0% 40%;transform:scale(1.2) translate3d(-6cqw,-2px,0)}50%{background-position:100% 60%;transform:scale(1.2) translate3d(6cqw,2px,0)}}
+@keyframes level-star-drift{0%,100%{transform:translate3d(-4cqw,-1px,0)}50%{transform:translate3d(4cqw,1px,0)}}
+@keyframes level-particle-float{0%,100%{transform:translate3d(-1px,-.6px,0)}50%{transform:translate3d(1px,.6px,0)}}
+@media(prefers-reduced-motion:reduce){.level-popover[data-state],.level-particle,.level-nebula,.level-starfield,.level-popover[data-level="3"] .level-thumb-sparks i{animation:none}.level-popover .level-thumb-sparks{visibility:hidden!important}.level-popover *{transition:none!important}.level-slider[data-dragging=true] .level-slider-thumb{transform:none}}

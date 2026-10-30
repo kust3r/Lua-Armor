@@ -1,0 +1,1186 @@
+{
+  "delivery": "Lurapy-site-hardened-v4.3",
+  "generatedAt": "2026-10-30",
+  "engineVersion": "2026.10.hardened-v4.3",
+  "hardenedVmRevision": 3,
+  "level3Default": [
+    "luau",
+    "roblox"
+  ],
+  "rollback": {
+    "web": "VITE_LURAPY_LEGACY_LEVEL3=1",
+    "cli": "LURAPY_LEGACY_LEVEL3=1"
+  },
+  "validation": {
+    "focused": "67/67 passed",
+    "suiteWithoutLua51Files": "513/513 passed",
+    "fullSuite": "550 passed, 14 skipped, 25 ENOENT because /usr/bin/lua is unavailable",
+    "lint": "exit 0, 0 errors, 136 warnings",
+    "build": "exit 0"
+  },
+  "excluded": [
+    ".env",
+    "node_modules",
+    "dist",
+    ".git",
+    "DELIVERY-MANIFEST.json (self)",
+    "DELIVERY-MANIFEST.json.sha256 (detached digest)"
+  ],
+  "files": [
+    {
+      "path": ".env.example",
+      "bytes": 419,
+      "sha256": "941064207ebb291bae76aa568e876c899d5018879032a38f250b51c457844706"
+    },
+    {
+      "path": ".gitignore",
+      "bytes": 279,
+      "sha256": "18ec027092b4093e1df41c661950622e26606a49b2d77e6235c2b944a055e9c0"
+    },
+    {
+      "path": "AGENTS.md",
+      "bytes": 10858,
+      "sha256": "f2308d7c2253c057584bcc3c968ab63277f3d12d43c77f408838f4f520800739"
+    },
+    {
+      "path": "CHANGES-HARDENED-V4.1.md",
+      "bytes": 926,
+      "sha256": "226f6bac86e481baa58c9d18ad212c96d2da8fa8fef89412f3414e5d91e8e55c"
+    },
+    {
+      "path": "CHANGES-HARDENED-V4.2.md",
+      "bytes": 1429,
+      "sha256": "66ba005261ec2ce6379367ef2879bc98b56269f1aa993adfd1ec88a7c08abb77"
+    },
+    {
+      "path": "CHANGES-HARDENED-V4.3.md",
+      "bytes": 1599,
+      "sha256": "c5de929a93e7f81a3d2a51539a6316675c41b1b1a95b20eb028468148d7d3881"
+    },
+    {
+      "path": "CLI.md",
+      "bytes": 4997,
+      "sha256": "ff621e414328e8b1c42559d9e055c501344c307bd86b54d5f46ee3f5b3b314f7"
+    },
+    {
+      "path": "HARDENED-V4.1-REPORT.md",
+      "bytes": 7462,
+      "sha256": "c0820d91f7ad95588acdfcef80a5823f590223e13ebf33a01f992b0bde35c6af"
+    },
+    {
+      "path": "HARDENED-V4.2-REPORT.md",
+      "bytes": 5407,
+      "sha256": "7d5bd44bee2a7b349926fd6c29d79dd07ce52a2903d6081880900cbf533d6d7e"
+    },
+    {
+      "path": "HARDENED-V4.3-REPORT.md",
+      "bytes": 5670,
+      "sha256": "4cec3ae980a028fb037baad80cc9b36cd131f71adf9fa08da32ea593a63ba34f"
+    },
+    {
+      "path": "LEIA-ME.md",
+      "bytes": 1337,
+      "sha256": "2f7fe1d9f688dca703f913b4d7ec9254e4193a7b00434af36e5abf339873f73f"
+    },
+    {
+      "path": "PROMPT-LOVABLE-SUBSTITUIR.md",
+      "bytes": 5434,
+      "sha256": "9c6f4b46339abc9bae8216a8cb363e0038319bc9dce3abb55b3a9017087f5bd8"
+    },
+    {
+      "path": "PROMPT-LOVABLE-V4.3.md",
+      "bytes": 3119,
+      "sha256": "483507f61cd8cc6dfe3a75bb820b560723bfcd1cff5212cb1cdd92ee7b9ef25e"
+    },
+    {
+      "path": "README.md",
+      "bytes": 1252,
+      "sha256": "6d71fe8eaf4361af33497079507b1b5ec6ef451b2afc78daa6fe4e1b8e35bbf1"
+    },
+    {
+      "path": "REDESIGN.md",
+      "bytes": 6869,
+      "sha256": "e9861a3081aed72e1b4e6c7737dc161a852e41a791926028ab5727a0a8420904"
+    },
+    {
+      "path": "REPRODUCE-HARDENED-V4.1.md",
+      "bytes": 1971,
+      "sha256": "877de7b7ed9131e95bee0188e5db737f4b96347adef67309c819f6e1695d17b5"
+    },
+    {
+      "path": "REPRODUCE-HARDENED-V4.2.md",
+      "bytes": 1297,
+      "sha256": "a6591201f4a79e2cf93ecdcae1c10d3d929f722d4727c77f60966458b2653978"
+    },
+    {
+      "path": "REPRODUCE-HARDENED-V4.3.md",
+      "bytes": 1500,
+      "sha256": "81704bde2b81f4b16ee2e46edb85503cea1759d67c058a12bdcabc98458485d6"
+    },
+    {
+      "path": "RESEARCH-LUA-OBFUSCATION-2026-10-30.md",
+      "bytes": 9786,
+      "sha256": "13abc9348ba126fdded6935e363f636593a7c6cc9b66cc8d708a58a58fcda490"
+    },
+    {
+      "path": "UNPARSER.md",
+      "bytes": 15821,
+      "sha256": "f0d4d982a513be6bd82594a6f0fa657f55955ac03fadbdd297edd07dfbb3f690"
+    },
+    {
+      "path": "audit/current-v42/KB-Lurapy-v4.2-1337.luau",
+      "bytes": 291863,
+      "sha256": "b92f43e1a2d6974206ac2ba8bacabd19d660775af295ae49fa489583592afcfa"
+    },
+    {
+      "path": "audit/current-v42/KB-Lurapy-v4.2-42.luau",
+      "bytes": 290311,
+      "sha256": "e07d94a3e5a3ca09d37e5d944f8cd2b09ca7171b83e77638773ce4f3dd2cb908"
+    },
+    {
+      "path": "audit/current-v42/KB-Lurapy-v4.2-7.luau",
+      "bytes": 288473,
+      "sha256": "bcfcf930cf3b21727d39249613f2aa2a8c8d44a0867f64e00079e1b81801e3a1"
+    },
+    {
+      "path": "audit/current-v42/audit.json",
+      "bytes": 9777,
+      "sha256": "4fad7f9408eb3815cdeab4369d1ffb6c367553e40264b62bce1978b56659c62f"
+    },
+    {
+      "path": "audit/current-v43/KB-Lurapy-v4.3-1337.luau",
+      "bytes": 354785,
+      "sha256": "f5b359560465ea816e9f7d42de91f8650fbd499dca2a165908f0687de8286778"
+    },
+    {
+      "path": "audit/current-v43/KB-Lurapy-v4.3-42.luau",
+      "bytes": 360927,
+      "sha256": "1b8ace4dcd4276f55b6763a152bfa92c2682db71a45cd0112bf0366d3b64b65c"
+    },
+    {
+      "path": "audit/current-v43/KB-Lurapy-v4.3-7.luau",
+      "bytes": 358909,
+      "sha256": "20b7fc2944fdfd77687bea4e5990f7e50277d2b7d09a5cbfd03de181b70170cb"
+    },
+    {
+      "path": "audit/current-v43/audit.json",
+      "bytes": 11574,
+      "sha256": "5870359cc2f6efcf8b4cbcaa5a91ae314449a90e90ac385dd9c42c3ed81645ef"
+    },
+    {
+      "path": "cli.js",
+      "bytes": 6463,
+      "sha256": "e8b5e5ceb217ff080d1589291ff10cad4a21ef6b7f1a090e12e9e97435eb44d8"
+    },
+    {
+      "path": "components.json",
+      "bytes": 415,
+      "sha256": "a44512ba12afd282f6a1034161b4794bc620e4ab709d74a6f45ba6756e09bfa6"
+    },
+    {
+      "path": "configs.json",
+      "bytes": 441,
+      "sha256": "d463ac92f9c90eaccbfe2b32acaa608229fae50f276a39397daefb3465045ea6"
+    },
+    {
+      "path": "drizzle.config.js",
+      "bytes": 304,
+      "sha256": "216d7bf2266b639a6dd27fee7e3c3a605cf226088ac0458e9e3ac92ba0d386f0"
+    },
+    {
+      "path": "drizzle/migrations/0000_restrict_profile_reads_to_owner.sql",
+      "bytes": 216,
+      "sha256": "7e4c47afb303a12f8e0f6b794143e04d2ff8d68ea0a2eacd8ebd7617e1c9cdd3"
+    },
+    {
+      "path": "drizzle/migrations/meta/0000_snapshot.json",
+      "bytes": 336,
+      "sha256": "d9e70ec5846f92dea1b11be58e339ae19e77af97eb524d868e58d26d2aa44085"
+    },
+    {
+      "path": "drizzle/migrations/meta/_journal.json",
+      "bytes": 226,
+      "sha256": "d1d31d29e72a1a346187d5e21ed219c1e06c5c9b39bbe9b1c9213f7f0b22bac3"
+    },
+    {
+      "path": "drizzle/schema.js",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "eslint.config.js",
+      "bytes": 1426,
+      "sha256": "2433f66275d4d827489f39ad6f58089c81f3b57d28707a160b2a305e1a772a85"
+    },
+    {
+      "path": "examples/unparser/compact.lua",
+      "bytes": 312,
+      "sha256": "d906c5baac40d98ce15c86e8eb96e84db423fbbaa7bad2dcf8145220fdd2b8b9"
+    },
+    {
+      "path": "examples/unparser/input.lua",
+      "bytes": 345,
+      "sha256": "b884e40b556d270cecc1eee2081146c528ba612d117afa324041773e049f72d0"
+    },
+    {
+      "path": "examples/unparser/readable.lua",
+      "bytes": 369,
+      "sha256": "83ff1bbc4526d11f4ab1d73693095488ddf6d40ed7a550a819eab2d168f94e5e"
+    },
+    {
+      "path": "gen_check.js",
+      "bytes": 896,
+      "sha256": "b693e7344dd814d228d3c40c6425f51d6bbb8e1537d9f78dbf4c2d65e7102fd2"
+    },
+    {
+      "path": "index.html",
+      "bytes": 975,
+      "sha256": "4ca41b6742f7046fe96ea45d3fb578b56290ef72e809d4699f0c6ce7c9467a53"
+    },
+    {
+      "path": "jsconfig.json",
+      "bytes": 189,
+      "sha256": "bba5bd20dde432ae62dc10832514727490b9a9c361a2daefad06097fd2fd88fc"
+    },
+    {
+      "path": "package-lock.json",
+      "bytes": 265372,
+      "sha256": "5a9b1b48adb3319b72929ec5ad4f30b3d0cdc417ad4e8b069655aa9fa2a83f95"
+    },
+    {
+      "path": "package.json",
+      "bytes": 1713,
+      "sha256": "256a753e1474c4c135afbe84b75dac4dea2d36f783395c259d2cbd609e2bf8d5"
+    },
+    {
+      "path": "playwright-fixture.js",
+      "bytes": 101,
+      "sha256": "573b641eda43f83620ee9403e0124570c1bdcb72e1412d6368dfa4b4e7123d4b"
+    },
+    {
+      "path": "playwright.config.js",
+      "bytes": 344,
+      "sha256": "e9e0e5882eff8ef145776b8455d9a6ddf557735e80489dd880847d81bc791caa"
+    },
+    {
+      "path": "postcss.config.js",
+      "bytes": 81,
+      "sha256": "e32657baf631d7c5f4dc67b4b2ee0ec8e7d5b3c41860e09cddce7c0377cd80bc"
+    },
+    {
+      "path": "public/favicon.svg",
+      "bytes": 7509,
+      "sha256": "220dcbaffa884b616ac6f2b6ce0e81b6f7be061cadcf033074e529dc6f64dabc"
+    },
+    {
+      "path": "public/fonts/inter-latin-400-normal.woff2",
+      "bytes": 23664,
+      "sha256": "8909904ab6c872eb994093482a88a28eca2cd95912d7b6fecd72103b0dc07edc"
+    },
+    {
+      "path": "public/fonts/inter-latin-500-normal.woff2",
+      "bytes": 24272,
+      "sha256": "f3779f1efccc4bdcdf9c0a02ab95bf6bd092ed09c48c08cedc725889edd1d19f"
+    },
+    {
+      "path": "public/fonts/inter-latin-600-normal.woff2",
+      "bytes": 24452,
+      "sha256": "f9a06e79cd3a2a20951c0f0e28f66dd0e6d3fda73911d640a2125c8fcb78f21a"
+    },
+    {
+      "path": "public/fonts/poppins-latin-600-normal.woff2",
+      "bytes": 8000,
+      "sha256": "f4e80d9dfd374d02989b87a27b5ed4cb78fbb177c27f1478e9a8b0afb7513149"
+    },
+    {
+      "path": "public/fonts/poppins-latin-700-normal.woff2",
+      "bytes": 7816,
+      "sha256": "9338e65fc077355c7a87ae0d64cc101e23b9bf8ad78ae65f0f319c857311b526"
+    },
+    {
+      "path": "public/landscape/chat-landscape.webp",
+      "bytes": 70386,
+      "sha256": "e463528965c88f982b7b766cb6ef21607403ae5d0c75dbc46c4dbe816ac67a65"
+    },
+    {
+      "path": "public/landscape/foreground.webp",
+      "bytes": 46146,
+      "sha256": "c994e0c992752a1784bdfdb4a733c0653b33f67809268041038bc19c37c78805"
+    },
+    {
+      "path": "public/landscape/hills-mid.webp",
+      "bytes": 122028,
+      "sha256": "06f7bbba18d572539e98b7a1499f7d75d22aff0bd957e2f9c837ff3849c8e622"
+    },
+    {
+      "path": "public/robots.txt",
+      "bytes": 160,
+      "sha256": "a3d27b3ca5ce32341fa9f96f01169b521b1657c05d1860c45d1e53a6258e9e8b"
+    },
+    {
+      "path": "roadmap.md",
+      "bytes": 31353,
+      "sha256": "1a9c4902735b4f44fdfc77a568eed160059b5e6697d776c667e18196a023bb55"
+    },
+    {
+      "path": "scripts/audit-current-v42.mjs",
+      "bytes": 6916,
+      "sha256": "9b1c0ea00d6e4ac1bc4e398c1b294279962746064442013cdf44d036892257a1"
+    },
+    {
+      "path": "scripts/audit-current-v43.mjs",
+      "bytes": 7520,
+      "sha256": "56461f8d63cc92712ddcddc19567ac29d82a6aa8c1232107274ad3d761118426"
+    },
+    {
+      "path": "src/App.jsx",
+      "bytes": 1162,
+      "sha256": "2d0ae6e6bd8c549b26844206d966026747f19c09c54f44a71ecadb23bce3a46a"
+    },
+    {
+      "path": "src/assets/blog-cover-branch.jpg.asset.json",
+      "bytes": 470,
+      "sha256": "e45231548c5677eaec256a52c64dbba27b678dc3cd3a21411f6c80450f8a91c0"
+    },
+    {
+      "path": "src/assets/blog-cover-tree.jpg.asset.json",
+      "bytes": 465,
+      "sha256": "4c88ee3c0b12c048f9dfd4f34937b4d15f3782d14ce22fc4cbcc57ae8d4b7a3b"
+    },
+    {
+      "path": "src/assets/chat-landscape.png.asset.json",
+      "bytes": 461,
+      "sha256": "b7dfe998c1855e7ea3bf390f0738e92cdc30cf4cab17aa9f863a7a7b90fa611d"
+    },
+    {
+      "path": "src/assets/footer-dunes.png.asset.json",
+      "bytes": 455,
+      "sha256": "e4decf2c82a01b85691774eba78dd733bbb2f94bf218f83989414282b052b6e6"
+    },
+    {
+      "path": "src/assets/hero-foreground.webp.asset.json",
+      "bytes": 467,
+      "sha256": "8a117f6a8acfcd986b481b989b3b2b39792b50a9d43ea4310f44ef5668ce964a"
+    },
+    {
+      "path": "src/assets/hero-hills-mid.webp.asset.json",
+      "bytes": 465,
+      "sha256": "63df4559c4fea4dfe99870bbcff6756b181b52c768d943b07464b0ac725fe1eb"
+    },
+    {
+      "path": "src/assets/inter-latin-400-normal.woff2.asset.json",
+      "bytes": 491,
+      "sha256": "4a9bb65b835392c18c155ca2f5e523e9f3b4ca361081e08c74d2a3d8b45f86c2"
+    },
+    {
+      "path": "src/assets/inter-latin-500-normal.woff2.asset.json",
+      "bytes": 491,
+      "sha256": "b7c9ccdae7bb74d34aa426d1a0cf41acb69b45ab11f434a462e918e453a8fc2c"
+    },
+    {
+      "path": "src/assets/inter-latin-600-normal.woff2.asset.json",
+      "bytes": 491,
+      "sha256": "be50eff341de6bbbd521b3020eb9516912b6623cbdb1ba457720e4a8bbf8e429"
+    },
+    {
+      "path": "src/assets/luraph-background.webp.asset.json",
+      "bytes": 474,
+      "sha256": "15f566063c2d87f8b60dc369aeb526126f77c355169f21a09522a942890b80df"
+    },
+    {
+      "path": "src/assets/lurapy-logo.svg",
+      "bytes": 7498,
+      "sha256": "fc5d14bfca9c8a3efcbb521c72aa7d8c10e432e3165e25f4981d4a72f71f1db6"
+    },
+    {
+      "path": "src/assets/mockup-transparency.webp.asset.json",
+      "bytes": 479,
+      "sha256": "25cdddba69ccda339ac5def2052e12bb42178515f89c652e43da338c34a19bd5"
+    },
+    {
+      "path": "src/assets/obfuscation-texture.jpg",
+      "bytes": 79616,
+      "sha256": "3eae626db6f26855893febcb1e6526491a67bbe03bc040a636fb1f9063b6a501"
+    },
+    {
+      "path": "src/assets/obfuscation-wave.jpg.asset.json",
+      "bytes": 467,
+      "sha256": "cc3f45b256d1ccf30d73763a453f14840ef3cf3ab089a8617fc8b238b0ea2a85"
+    },
+    {
+      "path": "src/assets/poppins-latin-600-normal.woff2.asset.json",
+      "bytes": 496,
+      "sha256": "2be13cb6b49f6741d9de59f4d5d9cb9ff9cceb48adabc692d282ed1987c94b3c"
+    },
+    {
+      "path": "src/assets/poppins-latin-700-normal.woff2.asset.json",
+      "bytes": 496,
+      "sha256": "d7f6536065a5b3462c13abefd1b0fb6aa6b7c495af651ed78bb3a4b4e072e319"
+    },
+    {
+      "path": "src/components/ApiKeyGate.jsx",
+      "bytes": 5597,
+      "sha256": "7763170572e507c8f34cd5558f83e6c8f0a26638898cc46d8608061e269f46fe"
+    },
+    {
+      "path": "src/components/CodeEditor.jsx",
+      "bytes": 2220,
+      "sha256": "2f26e50986ff4fafd06deee1bf3a08a66661ced9a347534c958fad7050132b79"
+    },
+    {
+      "path": "src/components/LevelSlider.jsx",
+      "bytes": 7038,
+      "sha256": "d606e132aa6c48ae0fa472beeb4d33842eb49ddaf90c56a564f11488ea9799c9"
+    },
+    {
+      "path": "src/components/ObfuscationComposer.jsx",
+      "bytes": 7730,
+      "sha256": "81d9576c0724e81e6bff3e5ea9a139a56e123d1ff4dac009b218ea0b09da3260"
+    },
+    {
+      "path": "src/components/ObfuscationExchange.jsx",
+      "bytes": 5282,
+      "sha256": "57226e1e00cf39a06637ae32f0de95286dac4cbd490a9d453d0f830fde4fad06"
+    },
+    {
+      "path": "src/components/ObfuscationModal.jsx",
+      "bytes": 8126,
+      "sha256": "588802da1cb51458bb6a1807e59e53d7e9fc1fb48018b6619f123c687eceabfc"
+    },
+    {
+      "path": "src/components/ObfuscationProgress.jsx",
+      "bytes": 1859,
+      "sha256": "906909f94a72ae2ece7cd031ac1f859be7b4f7da381ce26234b423e1bd9d10d1"
+    },
+    {
+      "path": "src/components/ObfuscationTab.jsx",
+      "bytes": 3869,
+      "sha256": "0e921d0627d039779e62ad083ab2842f5a7393ee817305d694b4c36cb659099d"
+    },
+    {
+      "path": "src/components/RecentObfuscations.jsx",
+      "bytes": 6972,
+      "sha256": "5cac40030d5b4d05b3b4896e7667691f73a2bc66a7be78f9d360beb42ec47ceb"
+    },
+    {
+      "path": "src/components/ReferenceIcons.jsx",
+      "bytes": 1770,
+      "sha256": "7f6a4abfe63227fcb5980c32fea9ffb4a7f71d0ead783814fb35074fa00b85f1"
+    },
+    {
+      "path": "src/components/level-slider.css",
+      "bytes": 6486,
+      "sha256": "f1d1ce334371002531ce631661484ac68d70c8d6bb8c6ef81213d2821615c1a4"
+    },
+    {
+      "path": "src/components/ui/button.jsx",
+      "bytes": 1649,
+      "sha256": "66c92e8bd55a52a941cb6cb8e8119286f73b265f10d63769bf0e59197778a72d"
+    },
+    {
+      "path": "src/components/ui/select.jsx",
+      "bytes": 4518,
+      "sha256": "a1e204c75f703cca6f3150cb4818bd034d42528ebfd68bbc780b2a40cf7e1e08"
+    },
+    {
+      "path": "src/hooks/useObfuscationJob.js",
+      "bytes": 10775,
+      "sha256": "4e6804f94abeb62409ca4bd19c39eeee58ff1788c50c307c871c03cc5bbc972a"
+    },
+    {
+      "path": "src/index.css",
+      "bytes": 7959,
+      "sha256": "cc32b8830d40f5bf025e39e1a362605d2b4d80ebf8c41909bf7984696ef1a87d"
+    },
+    {
+      "path": "src/integrations/supabase/client.js",
+      "bytes": 458,
+      "sha256": "ad5a926597282015a21aae9642d1edb234e8c65358fa824fa14dc15f261394d7"
+    },
+    {
+      "path": "src/integrations/supabase/previewAuthStorage.js",
+      "bytes": 4313,
+      "sha256": "6d35cf5fc9c4da3f81cbfa4b7d679810fcc5fa6db650e75035038e32ebbeba22"
+    },
+    {
+      "path": "src/integrations/supabase/types.js",
+      "bytes": 77,
+      "sha256": "d4030ce5ab4d6a4e31c6acfdffc12d6fd17322e6b9ec43bec68aac113fd0ff22"
+    },
+    {
+      "path": "src/lib/accessSession.js",
+      "bytes": 1188,
+      "sha256": "8145ad1b7e1ba474084ee1496f8d1a5277e4f934b3d519e26a40c454f37f23ea"
+    },
+    {
+      "path": "src/lib/error-messages.js",
+      "bytes": 10210,
+      "sha256": "cb5d90896560c4998cae5504a2460a27ad9c64bef5c1e7610980d693ec030577"
+    },
+    {
+      "path": "src/lib/greeting.js",
+      "bytes": 422,
+      "sha256": "4fc6da2503975515e4448dbd67550f32fd2e658f243b8b6aa1a64ff4f40ab92b"
+    },
+    {
+      "path": "src/lib/history-store.js",
+      "bytes": 4813,
+      "sha256": "1f38b79e275ff0dce173a2ddcd09a9aaf7001cc5bdd123fd5558d07155ac30ac"
+    },
+    {
+      "path": "src/lib/job-contract.js",
+      "bytes": 2201,
+      "sha256": "d6a01d4437d391a2c9760e68578e6d952361ee2ec6cfb81c08211ed9286089b6"
+    },
+    {
+      "path": "src/lib/obfuscation-session.js",
+      "bytes": 164,
+      "sha256": "d621052b5d06e504562d161aeebe4ae0f0935755499bc502b984047458956a91"
+    },
+    {
+      "path": "src/lib/obfuscation-worker.js",
+      "bytes": 1168,
+      "sha256": "411d6998c9d54d0ef3c8a6e05516a4f7897306a4b0a7f4261d671d296ff8aa39"
+    },
+    {
+      "path": "src/lib/obfuscator/AGENTS.md",
+      "bytes": 7351,
+      "sha256": "9313a857c077d3074c07419f35b3669f0ed841c1840c3bca1fd543d598a0413c"
+    },
+    {
+      "path": "src/lib/obfuscator/ast-walk.js",
+      "bytes": 2811,
+      "sha256": "c0009e117d04e905c8b0048302688f789009ac5cdc3c26d04ba28eee9c855c8c"
+    },
+    {
+      "path": "src/lib/obfuscator/bindings.js",
+      "bytes": 3132,
+      "sha256": "140c9a8db1893eb12a048e79c57c0f1a27a4a3f1461fc3379103a004e708b792"
+    },
+    {
+      "path": "src/lib/obfuscator/builtin-bindings.js",
+      "bytes": 1750,
+      "sha256": "344dac233b0275c28d364ec0fe185a7dae8bf264e74dd96514efa46b5f72a124"
+    },
+    {
+      "path": "src/lib/obfuscator/bundle.js",
+      "bytes": 5037,
+      "sha256": "097f1f55b5b4e2211a015898c851c5140398156715686b1a4a6ad056a29d83c6"
+    },
+    {
+      "path": "src/lib/obfuscator/bytecode.js",
+      "bytes": 8969,
+      "sha256": "b12c8c8fa886ecf20f0e9fdd8fb496267a5f420d06c19c6a2925f19a9a51cf1f"
+    },
+    {
+      "path": "src/lib/obfuscator/capabilities.js",
+      "bytes": 969,
+      "sha256": "f09a993207fdc878143ee12bd974d3e1161ac47e31e19e42b55ef406d3094d54"
+    },
+    {
+      "path": "src/lib/obfuscator/capture-layout.js",
+      "bytes": 379,
+      "sha256": "67cdd8b334331a2ffede2a1df49b16c8e556ffd7bf956a709824ac9dcd76469d"
+    },
+    {
+      "path": "src/lib/obfuscator/close-elision.js",
+      "bytes": 1477,
+      "sha256": "d0edf179a8200e6f22d656bc6f11f8cec20c70308fb376f17d3bf017fc54c12b"
+    },
+    {
+      "path": "src/lib/obfuscator/compiler/expressions.js",
+      "bytes": 8304,
+      "sha256": "d75490a0a682d8c899ec78e5d437749731e2d3eb7c85f480ffdd5a278f1424e9"
+    },
+    {
+      "path": "src/lib/obfuscator/compiler/index.js",
+      "bytes": 14378,
+      "sha256": "23cbfdc42a8bf8b99c9ab846ab66811fa662a40339278a87ecca0ab29738f0c9"
+    },
+    {
+      "path": "src/lib/obfuscator/compiler/statements.js",
+      "bytes": 11701,
+      "sha256": "bd2934ba6fa2bfc8f0ce2ea134c5158a7e8afbca2cfeb339daa1614a7a1dbc43"
+    },
+    {
+      "path": "src/lib/obfuscator/compiler/types.js",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "src/lib/obfuscator/constant-integrity.js",
+      "bytes": 2698,
+      "sha256": "81582cfa2692ae86ea5e4138a6e29ff4a6acfb0340f1bc326b9b1223e3835bf3"
+    },
+    {
+      "path": "src/lib/obfuscator/data-compression.js",
+      "bytes": 1918,
+      "sha256": "b5b97d2bc330489db7b39533e1f289324e5fe022dc3dfba6b3a4cca69a67b3bd"
+    },
+    {
+      "path": "src/lib/obfuscator/diagnostics.js",
+      "bytes": 944,
+      "sha256": "ff94d5f56896a8ed48da44f254215f6d0226cd0dcfbc9f23689aadaf599395ef"
+    },
+    {
+      "path": "src/lib/obfuscator/directives.js",
+      "bytes": 650,
+      "sha256": "d640b797a7a1167886d16d2abf393b117437cc03a4290e2ba8fb2cc683e791d8"
+    },
+    {
+      "path": "src/lib/obfuscator/engine.js",
+      "bytes": 13145,
+      "sha256": "9825718a19576d178839a35ba19603c656cad4d1591bee4a50fd347b12a3ba61"
+    },
+    {
+      "path": "src/lib/obfuscator/execution-policy.js",
+      "bytes": 2031,
+      "sha256": "1f53fc01ebcd58f7bb0046351d90e73dae4a04542551569addca2dd1dfc65ce4"
+    },
+    {
+      "path": "src/lib/obfuscator/function-ir.js",
+      "bytes": 12001,
+      "sha256": "75fc493312209bf5aa1666e536d0e6c398c7434a035b3d99c69135b5b006cd1d"
+    },
+    {
+      "path": "src/lib/obfuscator/generation-context.js",
+      "bytes": 483,
+      "sha256": "d492a24fba815677666e4ad15198fc4cf998647cff42fcd366b2f9817683010d"
+    },
+    {
+      "path": "src/lib/obfuscator/generation-random.js",
+      "bytes": 1082,
+      "sha256": "a5c8706600c4d39b9db66dd4d05eeb408f2de0649c250451e44d228ef6e7df1a"
+    },
+    {
+      "path": "src/lib/obfuscator/generation-session.js",
+      "bytes": 1082,
+      "sha256": "dadd44f81f908af50253a65ce670972d1601f9c8a733b58c5b67d0b59872508b"
+    },
+    {
+      "path": "src/lib/obfuscator/hardened-patterns.js",
+      "bytes": 2119,
+      "sha256": "3e4c1ebca040de4b7658bc7a23964872c932307014bfdea856ac8ccb60fde90f"
+    },
+    {
+      "path": "src/lib/obfuscator/hardened-v4.js",
+      "bytes": 27159,
+      "sha256": "82871a57323e09692fcae54783c55126b19b453c7734ba0cacc09dcc74519222"
+    },
+    {
+      "path": "src/lib/obfuscator/lexer.js",
+      "bytes": 7982,
+      "sha256": "49cdc5556edc3cc726b2b5300e6023eb99531b786471269d51705da3da938975"
+    },
+    {
+      "path": "src/lib/obfuscator/literal-values.js",
+      "bytes": 1101,
+      "sha256": "5c73b623f3f61e20d2011d12c4b8d3806d7224594ac5794f1f64653867bf55af"
+    },
+    {
+      "path": "src/lib/obfuscator/lzma-wrapper.js",
+      "bytes": 9567,
+      "sha256": "18d58ccda65e9f731ddc3b598ef68a357c7bb88a1257e6a6815294db54b09cba"
+    },
+    {
+      "path": "src/lib/obfuscator/macros.js",
+      "bytes": 10951,
+      "sha256": "6247f36892b4a7aabcac30a37cf2db0e60b06a223de1da080d12b18bf154bf98"
+    },
+    {
+      "path": "src/lib/obfuscator/minifier.js",
+      "bytes": 8435,
+      "sha256": "23b3bca5aa0f4862ce63fe6fda7802611f227088b106b51a48f3693b91fc3fef"
+    },
+    {
+      "path": "src/lib/obfuscator/name-transport.js",
+      "bytes": 1036,
+      "sha256": "5b75b975190cbbdc41589855f02128308f82a2d39fc78fba43032a311e73ef65"
+    },
+    {
+      "path": "src/lib/obfuscator/names.js",
+      "bytes": 11134,
+      "sha256": "568b3022c05ddc064ba7be3376d5e975421eafda68f4de79bc8c588758a2310f"
+    },
+    {
+      "path": "src/lib/obfuscator/native-functions.js",
+      "bytes": 8258,
+      "sha256": "d7a1a972bcd716b88f1cf34ef32e00ae523a6c502b143750d71c0bf042787e97"
+    },
+    {
+      "path": "src/lib/obfuscator/native-identity.js",
+      "bytes": 741,
+      "sha256": "f5583e7e0c434c973766bd94606bdf56f66fcaca938a56ab864897dece170014"
+    },
+    {
+      "path": "src/lib/obfuscator/normalize-toggles.js",
+      "bytes": 174,
+      "sha256": "be1ae4b4be693e8e904ccdac6d9c30ce79592991af4505396f38d25ed0ddda5d"
+    },
+    {
+      "path": "src/lib/obfuscator/obfuscations/control-flow.js",
+      "bytes": 7051,
+      "sha256": "1809e1ee6cfd1f7c306121a9b486fc3bf3fef9d22824552fc69899eb4c829db3"
+    },
+    {
+      "path": "src/lib/obfuscator/obfuscations/garbage.js",
+      "bytes": 4961,
+      "sha256": "848e137727257f24ccd79212e7f6ff80705b3a38d4821b2e40cc9a2cdb7d8659"
+    },
+    {
+      "path": "src/lib/obfuscator/obfuscations/hardening.js",
+      "bytes": 17358,
+      "sha256": "c5cad13eb4565193edf87c350b462bcb5308cd4d6c80dba1fef10e7106b802cf"
+    },
+    {
+      "path": "src/lib/obfuscator/obfuscations/number-enc.js",
+      "bytes": 4330,
+      "sha256": "4d1732ebc4fa3fe26ad05770e76db8341a9b39d9e7afbdc8baf1a395cc3c9619"
+    },
+    {
+      "path": "src/lib/obfuscator/obfuscations/string-enc.js",
+      "bytes": 5157,
+      "sha256": "8e5796674f2f1225ef28d727803bc2a6a6a806c873cd3423a650af0ab6039b8f"
+    },
+    {
+      "path": "src/lib/obfuscator/optimizer.js",
+      "bytes": 5122,
+      "sha256": "1caf49b397ff684eab226e2069fb640b98545c127285c59b1415217838c9c08c"
+    },
+    {
+      "path": "src/lib/obfuscator/output-contract.js",
+      "bytes": 1023,
+      "sha256": "033c5df8379bc558461e3180156630fcd5a30690e4a2ef128ce8d04255b63fd0"
+    },
+    {
+      "path": "src/lib/obfuscator/packer.js",
+      "bytes": 2907,
+      "sha256": "b125df371213ae6e5b96ea5c720d1a19198d90735926a4d35d12a17a4a17e574"
+    },
+    {
+      "path": "src/lib/obfuscator/parser.js",
+      "bytes": 22309,
+      "sha256": "fcce1d930470fd8e423fe88ea9403f54523845463f0b8359aaafbec9a7be9772"
+    },
+    {
+      "path": "src/lib/obfuscator/platforms.js",
+      "bytes": 4334,
+      "sha256": "0108a60b5b5eb9e88af52f068197f53ffbda37110c4540ed5d925e728a0f0cfa"
+    },
+    {
+      "path": "src/lib/obfuscator/position-codec.js",
+      "bytes": 4378,
+      "sha256": "f6dab186c8e71384f57ef6f7f71d1fd329dea30c5106d8a2431e8c986ecb2566"
+    },
+    {
+      "path": "src/lib/obfuscator/prototype-metadata.js",
+      "bytes": 1862,
+      "sha256": "8bdd57785053514cf057057029d7f985851cd3c23456715ae2f10d0275bdb83a"
+    },
+    {
+      "path": "src/lib/obfuscator/runtime-cleanup.js",
+      "bytes": 2146,
+      "sha256": "c93f6a9d0c750f39cd9059b8f5bdc94bbc82f50bcb0d45e6eabbb76364e757d8"
+    },
+    {
+      "path": "src/lib/obfuscator/runtime-layout.js",
+      "bytes": 4948,
+      "sha256": "cda6245d77029ed9baa4893da6e29b7598b940087c7a72481f6a6d879e4371fc"
+    },
+    {
+      "path": "src/lib/obfuscator/runtime-renamer.js",
+      "bytes": 3715,
+      "sha256": "78605f95b70b2f5e0a4e29fbc1a2590ee8c9a5e5cfb1ee1c65ff6804039628e2"
+    },
+    {
+      "path": "src/lib/obfuscator/source-emission.js",
+      "bytes": 441,
+      "sha256": "83c28d28fb04c497c0728fa2430381093b8edf75a2d139ec89dc68231d1840ec"
+    },
+    {
+      "path": "src/lib/obfuscator/string-assembly.js",
+      "bytes": 488,
+      "sha256": "0e7da87029bb8efe6b43e153de3a9d5ba93a367f0159b228746dfe7e220fd69d"
+    },
+    {
+      "path": "src/lib/obfuscator/string-permutation.js",
+      "bytes": 2584,
+      "sha256": "4c952a0ee98574ca9c0eb19d7e911b78df6bc9311b6b88a5dd2adb50d721fc7b"
+    },
+    {
+      "path": "src/lib/obfuscator/token-cache.js",
+      "bytes": 2897,
+      "sha256": "572b67b239993ac8921c6ce9349a6fa695bf60816919693512a4368c0b71859d"
+    },
+    {
+      "path": "src/lib/obfuscator/types.js",
+      "bytes": 278,
+      "sha256": "6adf6182e9e724e29f03c1a35086f5e66662a23ed6f02faf926f31b486dea8ef"
+    },
+    {
+      "path": "src/lib/obfuscator/unparser/emitter.js",
+      "bytes": 11100,
+      "sha256": "315a9684fe615039d7b1211a5b21fbebc090537797657bfcc500bb5db6f92565"
+    },
+    {
+      "path": "src/lib/obfuscator/unparser/index.js",
+      "bytes": 61,
+      "sha256": "696a29783143b1343a777f9eeaf5fb43dc5ee9e78aae76a4741162ae623771d9"
+    },
+    {
+      "path": "src/lib/obfuscator/unparser/literals.js",
+      "bytes": 490,
+      "sha256": "525e80b2591872fe80a23e9248a4f84b087872c27606e9d3b4e5eb36696637c2"
+    },
+    {
+      "path": "src/lib/obfuscator/unparser/precedence.js",
+      "bytes": 1636,
+      "sha256": "9780d8cfa2e1a84e40515d28b8dc33b4677841a3b17a26248f4053364a71803d"
+    },
+    {
+      "path": "src/lib/obfuscator/unparser/token-writer.js",
+      "bytes": 1727,
+      "sha256": "0ca330953af2f6e284ea2e59fbcb2b19ea62e9cb21ec272eee5a928f2a39e322"
+    },
+    {
+      "path": "src/lib/obfuscator/validate-ast.js",
+      "bytes": 6931,
+      "sha256": "e37bb1991dd05bb82cf6f62b310c480ca8eeb5daf95bd0f2cddd0e19e155363b"
+    },
+    {
+      "path": "src/lib/obfuscator/vm-codegen.js",
+      "bytes": 122968,
+      "sha256": "471de309c2b93eedc95c7a25b0df645c849efbce1f2a109fb96342bea3c9f2bb"
+    },
+    {
+      "path": "src/lib/obfuscator/watermark.js",
+      "bytes": 3306,
+      "sha256": "700d73fa4703ab6ac4bd05fdddcc468e930ceebbc2fb0f149e1df61ae0883a2f"
+    },
+    {
+      "path": "src/lib/obfuscator/word-data.js",
+      "bytes": 1906,
+      "sha256": "e3412421459e6c76947f42213a33579d2da008edb7f2e4224a29a0eaee0c8e11"
+    },
+    {
+      "path": "src/lib/utils.js",
+      "bytes": 147,
+      "sha256": "1bb7859aef526c12563f4b0af67c70a010f2627b1d1f3e675f23a614e76f71ae"
+    },
+    {
+      "path": "src/main.jsx",
+      "bytes": 159,
+      "sha256": "b2057296217e43e2147a494f5e0f664be01f57efed29aaef9f4fe444a7ab4962"
+    },
+    {
+      "path": "src/obfuscation.css",
+      "bytes": 38157,
+      "sha256": "2bea91f09068a3e1ee1ea3792a70a46cb4dab10e9c6eeb93f28e5984c36af59c"
+    },
+    {
+      "path": "src/pages/Dashboard.jsx",
+      "bytes": 2787,
+      "sha256": "8c64c2b93acbf61c09370b69b5b6b97cb89ac7693df75e694183679c38732242"
+    },
+    {
+      "path": "src/pages/NotFound.jsx",
+      "bytes": 814,
+      "sha256": "0cf101ba1016c94b2151afde437d3f1abf4e6d0c607e036ec650a68a9ecbb706"
+    },
+    {
+      "path": "src/tailwind.config.lov.json",
+      "bytes": 187920,
+      "sha256": "57b1d41f5e55f4dbe7b64e8de7115439b08febaa2b93799eb030459e7ef59d0b"
+    },
+    {
+      "path": "src/test/audit-continuation.test.js",
+      "bytes": 6182,
+      "sha256": "f80d85e0000103efdbee5c8fd25a082f7088e61ddd09663bc3be2fd1e26fdd5f"
+    },
+    {
+      "path": "src/test/audit-contracts.test.js",
+      "bytes": 3248,
+      "sha256": "1095f019509f2c4341384e29ae9a39e384f639f4f1a8596029ef555f8c180453"
+    },
+    {
+      "path": "src/test/audit-iy2.test.js",
+      "bytes": 3371,
+      "sha256": "c214cda428b2aec5569f15e8e1c2485b3332b1efcef71e0f25e02a1dece21cfb"
+    },
+    {
+      "path": "src/test/audit-runtime.test.js",
+      "bytes": 3700,
+      "sha256": "eb9f099cee1ae5e81d6e07e2f6262c8dcd95a7c1b5f9e4bf98bd7cbd092e6081"
+    },
+    {
+      "path": "src/test/capture-layout.test.js",
+      "bytes": 1695,
+      "sha256": "752734190c6d59908e44c32936faa3757d98808e12a6e762263c77e92749d03c"
+    },
+    {
+      "path": "src/test/close-elision.test.js",
+      "bytes": 2500,
+      "sha256": "bafc47f4d740ff38491e8521e03a5bd4b84b7be10c2d3f12d47f29c324c8899e"
+    },
+    {
+      "path": "src/test/composer.test.jsx",
+      "bytes": 9318,
+      "sha256": "f6829682ead4c9961cc0f8efa05607eb412e8683f557019b00f9b06be65d73b2"
+    },
+    {
+      "path": "src/test/concat-semantics.test.js",
+      "bytes": 2842,
+      "sha256": "38f3435cf6653bd7d741e5eb813ac1d0a702128800702a335c6fad101c073805"
+    },
+    {
+      "path": "src/test/constant-integrity-runtime.test.js",
+      "bytes": 3421,
+      "sha256": "9d1b387a026d3ec5972e29fd8a58ffb3388a14babe22a23b1de16e929723839b"
+    },
+    {
+      "path": "src/test/constant-integrity.test.js",
+      "bytes": 1024,
+      "sha256": "10d348bd788408cd7103f8728d24f7ea430957a4ac878d350130aabc0e4a1204"
+    },
+    {
+      "path": "src/test/emission-presentation.test.js",
+      "bytes": 4494,
+      "sha256": "94a170022a0a108cea93f866f8e6187a86f6c71423199c56e87ba0e4ca475437"
+    },
+    {
+      "path": "src/test/error-messages.test.js",
+      "bytes": 2875,
+      "sha256": "76e7f6ed771aeccbfb48d94f29479df3b0b40d7d78918b4e15115fb0a6787033"
+    },
+    {
+      "path": "src/test/example.test.js",
+      "bytes": 142,
+      "sha256": "db5be345538b3377b4dfb9c73d88c75bd6c74d48c69f5eea8a384038e38ccfdd"
+    },
+    {
+      "path": "src/test/execution-contracts.test.js",
+      "bytes": 8367,
+      "sha256": "bfb1547edc95a1edba876ecaaf5f1f8ce72ca000f9234f02035af9d976ab2900"
+    },
+    {
+      "path": "src/test/file-cards.test.jsx",
+      "bytes": 8882,
+      "sha256": "eefbad5a09f8f5db19733d5e1bb80537aeb035c6edb0679eb67ab37237439fba"
+    },
+    {
+      "path": "src/test/greeting.test.js",
+      "bytes": 799,
+      "sha256": "07244e3e7715f7fb58a00a46aeee5fad78532bd4fa6a95b7688485e190c18ecb"
+    },
+    {
+      "path": "src/test/hardened-v43-selection.test.jsx",
+      "bytes": 2022,
+      "sha256": "e8191648e4914e7ca32d71a993e13ec06fc32d775c52d17cfec3da57f7753b2f"
+    },
+    {
+      "path": "src/test/hardened-v43.test.js",
+      "bytes": 9022,
+      "sha256": "f89c94e3eb46b51d1b73fa328998c9580362d180e8eeaf73bd7536915bb3ecd3"
+    },
+    {
+      "path": "src/test/hybrid-sharing.test.js",
+      "bytes": 6739,
+      "sha256": "cca57cf00f9388c4d3defdb1103d97d316736a5298767d2bd9aeae55586cfcb5"
+    },
+    {
+      "path": "src/test/level-slider-presentation.test.jsx",
+      "bytes": 11015,
+      "sha256": "ce18bed0d532b881e129f0dd834e13d4c32bc2f252a5336551e1531db4366e77"
+    },
+    {
+      "path": "src/test/level-slider.test.jsx",
+      "bytes": 4736,
+      "sha256": "38a0c7789dab8d80467e61f542218e036a43fee3abc40278080e51eeb7453c5f"
+    },
+    {
+      "path": "src/test/loop-capture-lifetimes.test.js",
+      "bytes": 3458,
+      "sha256": "4db5d3520c073340fe99db8031bc93a35635dffbade53ac9f2d45cf5b85ea8ea"
+    },
+    {
+      "path": "src/test/luau-differential.test.js",
+      "bytes": 9524,
+      "sha256": "2e9420462d727ce9a36d3b3c7e5cbb67554464b54ac4cdebfc1fab09fec03ca5"
+    },
+    {
+      "path": "src/test/luau-interpolation.test.js",
+      "bytes": 3554,
+      "sha256": "8d3e4c1871677fc4da4b2e025f9d6fa808e10e6101bbfb4059664057664f38d9"
+    },
+    {
+      "path": "src/test/lzma-wrapper.test.js",
+      "bytes": 3696,
+      "sha256": "fb9bc7db197ba8d1927f2e759f5b147be977c27a0a0b1eb15f60dd6a432d332a"
+    },
+    {
+      "path": "src/test/name-transport.test.js",
+      "bytes": 3024,
+      "sha256": "503d8896487e2574a8e9cb4de85398802b7a91b5a4d84fc92cdb8859d9a530f5"
+    },
+    {
+      "path": "src/test/obf-shimmer.test.js",
+      "bytes": 2140,
+      "sha256": "ea18310d0ce0f5ed8550b21496c35e3eb641204168c720d119fdd05be23f445d"
+    },
+    {
+      "path": "src/test/obfuscation-full.test.js",
+      "bytes": 9501,
+      "sha256": "bf97a29abaa2d9bb8f0685abff95d5b4738c31ae460868fec142a72838415a7e"
+    },
+    {
+      "path": "src/test/obfuscation-job-controls.test.jsx",
+      "bytes": 3668,
+      "sha256": "6363f70df962b3cf64ac29b5bc3bf12f0503e1127ffb4f6bcef6777acd288683"
+    },
+    {
+      "path": "src/test/obfuscation-session.test.js",
+      "bytes": 1065,
+      "sha256": "e3047c70a54ece0faae8731c82ded70c93b32c902507aec949689f24103f8db3"
+    },
+    {
+      "path": "src/test/position-codec.test.js",
+      "bytes": 1461,
+      "sha256": "ab07e1ba041057b4e251802194e7a5d1e47b52568260ea7035b1a7ff1da49948"
+    },
+    {
+      "path": "src/test/prototype-position-runtime.test.js",
+      "bytes": 2249,
+      "sha256": "a370e53a2ed71b9ccfb3a506ac1cdda1e04171a439234ccc049b39eebf516c7f"
+    },
+    {
+      "path": "src/test/redesign-contracts.test.js",
+      "bytes": 4564,
+      "sha256": "8c5df3f6876760e74fea256cc5b9b66c6d26bf42fa56d17814c5abdd85448e2c"
+    },
+    {
+      "path": "src/test/retired-line-option.test.js",
+      "bytes": 1548,
+      "sha256": "0b71f9218995a7f5366cc5c33b8fa8112790ea1c8dfae4d95a417971e41abd6e"
+    },
+    {
+      "path": "src/test/retired-option-persistence.test.jsx",
+      "bytes": 4317,
+      "sha256": "5854bedc3071d979916478f8be638080119eba138b8c5e3fdb5e1298cf79c237"
+    },
+    {
+      "path": "src/test/runtime-renamer.test.js",
+      "bytes": 3345,
+      "sha256": "bae6e388b5de141b8c86515d17f92df7e888a421ecd2c98fac3fc84814520b76"
+    },
+    {
+      "path": "src/test/setup.js",
+      "bytes": 367,
+      "sha256": "d2d39d044d34fd61ec218bfc54d3a5053fa41c2954f3f0d0f1cb1a30893f7b30"
+    },
+    {
+      "path": "src/test/string-permutation.test.js",
+      "bytes": 4742,
+      "sha256": "16dab89d4159ca4bb834a37daaa9e72f8a1f88a390e50aad3f4e15f510986685"
+    },
+    {
+      "path": "src/test/structural-emission.test.js",
+      "bytes": 5038,
+      "sha256": "2c705a8a183091828f9882b39fca3f36fba301c113e5edac0d9b9a6c62142921"
+    },
+    {
+      "path": "src/test/token-budget.test.js",
+      "bytes": 2279,
+      "sha256": "c3b35a4c3e46c8e9f4d28d531e2842098e051e136fa6f5c090042a39bdfa52ce"
+    },
+    {
+      "path": "src/test/token-cache.test.js",
+      "bytes": 2754,
+      "sha256": "6976fcd887f70c3292e5998a7d2cb103c9e351f8c59ef74410c35ee8cab5df75"
+    },
+    {
+      "path": "src/test/token-readonly.test.js",
+      "bytes": 3615,
+      "sha256": "16a8c83861352cf9f0945feec95e0174bba09a2b70b1f87b09085e34c52a325b"
+    },
+    {
+      "path": "src/test/type-diagnostics.test.js",
+      "bytes": 1748,
+      "sha256": "89f55d23c430bf04eb142fe11f441e0f4a9aa7a5c1a6fcca34ae3bed6183e777"
+    },
+    {
+      "path": "src/test/unparser-dialects.test.js",
+      "bytes": 4679,
+      "sha256": "e055f860f459e543da7cbdb19100bbe79c6b9c657f41dbe2074d19726ae2c9e5"
+    },
+    {
+      "path": "src/test/unparser.test.js",
+      "bytes": 12739,
+      "sha256": "6dc551b1023189726e22e4dbf562df914aaebbf8584927017f8da3f18b614d97"
+    },
+    {
+      "path": "src/test/vm-benchmark.test.js",
+      "bytes": 4105,
+      "sha256": "0a517d142610ee13b8df2bec4f3dc45edd29ef8108c03425179bac12f2a37879"
+    },
+    {
+      "path": "src/test/vm-codegen.test.js",
+      "bytes": 2349,
+      "sha256": "cd53b31f230e828d319b7db0296e273d416e343a5f79c42ebe1ab683964d5ea4"
+    },
+    {
+      "path": "src/test/vm-execution-policy.test.js",
+      "bytes": 7285,
+      "sha256": "88e762525457ae6517e8269109d2edbe196c56f5d8679736945b48554de05797"
+    },
+    {
+      "path": "src/test/vm-runtime-regressions.test.js",
+      "bytes": 5227,
+      "sha256": "6653a1349c68e479c395c6fbddbba79f023ddb6d0f29214a9335528ea885a7dc"
+    },
+    {
+      "path": "src/test/word-data.test.js",
+      "bytes": 1605,
+      "sha256": "900a890d627c3597ef33ec9da3f64b6955735cd75da8b9268489aa07462d77ae"
+    },
+    {
+      "path": "supabase/config.toml",
+      "bytes": 78,
+      "sha256": "0b7cce1de9440f11bf2d0372ed8db52b56196f6ba06975072a6e6b69677c5621"
+    },
+    {
+      "path": "supabase/functions/access-key/index.js",
+      "bytes": 2322,
+      "sha256": "7ff815ccac4a73b23dd9af792d42ee6889e92f1e977937badf9f54d7c4d3725a"
+    },
+    {
+      "path": "supabase/migrations/20260329012019_e4fbf619-84ee-4f93-a8ec-a862a6793dfb.sql",
+      "bytes": 1657,
+      "sha256": "31814e22ef5941494795b94645746a673f1750b58c8e703c687e77e2ed2f3578"
+    },
+    {
+      "path": "supabase/migrations/20260401004632_21f882f1-c1ab-4505-9a08-d18ba5b8c2e2.sql",
+      "bytes": 2176,
+      "sha256": "e58683ff3c07439a9a55c4e4a4e2c63c3ff06742180415134a3e4d7c715d2bd3"
+    },
+    {
+      "path": "tailwind.config.js",
+      "bytes": 3002,
+      "sha256": "4df4622d87e5e83e18cebfe02d481dc57303c63de724faf8726be5a7ff40be52"
+    },
+    {
+      "path": "unparser-benchmark.js",
+      "bytes": 3151,
+      "sha256": "ead7e06ba09202e2acb26569ba8766d9b4879c958b8e195f2734eec6948b98ef"
+    },
+    {
+      "path": "vite.config.js",
+      "bytes": 596,
+      "sha256": "4a83edd4fee1376681427e090f159bd65198460272dba04ad196c37571172d7b"
+    },
+    {
+      "path": "vitest.config.js",
+      "bytes": 451,
+      "sha256": "6465f21e82038b46a1aa7769ba52612bc398f0090548f94139c8035912d0276b"
+    }
+  ]
+}

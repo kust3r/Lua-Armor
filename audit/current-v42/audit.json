@@ -1,0 +1,368 @@
+{
+  "generatedAt": "2026-10-30T11:12:30.489Z",
+  "inputs": {
+    "source": {
+      "file": "KB.lua",
+      "bytes": 14214,
+      "sha256": "57f3d4ebe6c68f960544feb7ba4f114a12fb348403e1da548d9646cc98a940ea"
+    },
+    "controller": {
+      "file": "kb-controller.luau",
+      "sha256": "fdb16205530e0d86738926b3055385bcd9489daad381c3bde2ef1f3c5fda92bc"
+    },
+    "luraph": {
+      "file": "KB-Luraph.lua",
+      "sha256": "f4ea7ae704160f8aa369dd0126dd8c685bb6938cac6d7161f7be9a077dd61ff9"
+    },
+    "legacy": {
+      "file": "KB-Obfuscated (4).lua",
+      "sha256": "5c4b410a026f502bc6c155656535094ccafb8d863711f8c2f830cdf3d512dde8"
+    }
+  },
+  "literalPopulation": {
+    "unique": 94,
+    "long": 82
+  },
+  "artifacts": [
+    {
+      "seed": 7,
+      "file": "KB-Lurapy-v4.2-7.luau",
+      "metadata": {
+        "engineVersion": "2026.10.hardened-v4.2",
+        "hardenedVmVersion": 4,
+        "hardenedVmRevision": 2,
+        "hardenedVmMode": "full",
+        "seed": 7,
+        "requestedLevel": 3,
+        "usedLevel": 3,
+        "attempts": 1,
+        "platform": "luau",
+        "toggles": {
+          "antiTamper": true,
+          "antiDebug": true,
+          "envLock": true,
+          "intenseVm": true,
+          "gcFixes": true,
+          "hardcodeGlobals": true,
+          "singleDispatchTree": true,
+          "robloxEnvLock": false,
+          "lzmaWrapper": false,
+          "vmCompression": false,
+          "packer": false,
+          "directOutput": true,
+          "robloxYield": false
+        },
+        "names": {
+          "charset": "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+×÷=/_<>[]!@#$%^&*()`~\\|{}€£¥₩¿'\":;,?.",
+          "minLength": 1,
+          "maxLength": 8,
+          "nameStyle": "mangled"
+        },
+        "execution": {
+          "loader": "direct",
+          "cooperativeYield": false
+        },
+        "validation": "structural"
+      },
+      "checksums": [
+        -2.1109608642076587,
+        6006995,
+        2176958,
+        60300
+      ],
+      "lifecycle": true,
+      "name": "Lurapy v4.2 seed 7",
+      "bytes": 288473,
+      "sha256": "bcfcf930cf3b21727d39249613f2aa2a8c8d44a0867f64e00079e1b81801e3a1",
+      "lines": 1,
+      "functionTokens": 207,
+      "elseifTokens": 427,
+      "directLongLiterals": 1,
+      "longLiteralDenominator": 82,
+      "legacyArithmeticDirectory": false,
+      "decimalStringCharRuns": 0,
+      "fixedWindowRepeat64": {
+        "width": 64,
+        "total": 4379,
+        "repeated": 17,
+        "ratio": 0.0038821648778259877
+      }
+    },
+    {
+      "seed": 42,
+      "file": "KB-Lurapy-v4.2-42.luau",
+      "metadata": {
+        "engineVersion": "2026.10.hardened-v4.2",
+        "hardenedVmVersion": 4,
+        "hardenedVmRevision": 2,
+        "hardenedVmMode": "full",
+        "seed": 42,
+        "requestedLevel": 3,
+        "usedLevel": 3,
+        "attempts": 1,
+        "platform": "luau",
+        "toggles": {
+          "antiTamper": true,
+          "antiDebug": true,
+          "envLock": true,
+          "intenseVm": true,
+          "gcFixes": true,
+          "hardcodeGlobals": true,
+          "singleDispatchTree": true,
+          "robloxEnvLock": false,
+          "lzmaWrapper": false,
+          "vmCompression": false,
+          "packer": false,
+          "directOutput": true,
+          "robloxYield": false
+        },
+        "names": {
+          "charset": "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+×÷=/_<>[]!@#$%^&*()`~\\|{}€£¥₩¿'\":;,?.",
+          "minLength": 1,
+          "maxLength": 8,
+          "nameStyle": "mangled"
+        },
+        "execution": {
+          "loader": "direct",
+          "cooperativeYield": false
+        },
+        "validation": "structural"
+      },
+      "checksums": [
+        -2.1109608642076587,
+        6006995,
+        2176958,
+        60300
+      ],
+      "lifecycle": true,
+      "name": "Lurapy v4.2 seed 42",
+      "bytes": 290311,
+      "sha256": "e07d94a3e5a3ca09d37e5d944f8cd2b09ca7171b83e77638773ce4f3dd2cb908",
+      "lines": 1,
+      "functionTokens": 208,
+      "elseifTokens": 431,
+      "directLongLiterals": 1,
+      "longLiteralDenominator": 82,
+      "legacyArithmeticDirectory": false,
+      "decimalStringCharRuns": 0,
+      "fixedWindowRepeat64": {
+        "width": 64,
+        "total": 4407,
+        "repeated": 32,
+        "ratio": 0.007261175402768323
+      }
+    },
+    {
+      "seed": 1337,
+      "file": "KB-Lurapy-v4.2-1337.luau",
+      "metadata": {
+        "engineVersion": "2026.10.hardened-v4.2",
+        "hardenedVmVersion": 4,
+        "hardenedVmRevision": 2,
+        "hardenedVmMode": "full",
+        "seed": 1337,
+        "requestedLevel": 3,
+        "usedLevel": 3,
+        "attempts": 1,
+        "platform": "luau",
+        "toggles": {
+          "antiTamper": true,
+          "antiDebug": true,
+          "envLock": true,
+          "intenseVm": true,
+          "gcFixes": true,
+          "hardcodeGlobals": true,
+          "singleDispatchTree": true,
+          "robloxEnvLock": false,
+          "lzmaWrapper": false,
+          "vmCompression": false,
+          "packer": false,
+          "directOutput": true,
+          "robloxYield": false
+        },
+        "names": {
+          "charset": "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789+×÷=/_<>[]!@#$%^&*()`~\\|{}€£¥₩¿'\":;,?.",
+          "minLength": 1,
+          "maxLength": 8,
+          "nameStyle": "mangled"
+        },
+        "execution": {
+          "loader": "direct",
+          "cooperativeYield": false
+        },
+        "validation": "structural"
+      },
+      "checksums": [
+        -2.1109608642076587,
+        6006995,
+        2176958,
+        60300
+      ],
+      "lifecycle": true,
+      "name": "Lurapy v4.2 seed 1337",
+      "bytes": 291863,
+      "sha256": "b92f43e1a2d6974206ac2ba8bacabd19d660775af295ae49fa489583592afcfa",
+      "lines": 1,
+      "functionTokens": 220,
+      "elseifTokens": 425,
+      "directLongLiterals": 1,
+      "longLiteralDenominator": 82,
+      "legacyArithmeticDirectory": false,
+      "decimalStringCharRuns": 0,
+      "fixedWindowRepeat64": {
+        "width": 64,
+        "total": 4432,
+        "repeated": 15,
+        "ratio": 0.003384476534296029
+      }
+    }
+  ],
+  "hooks": [
+    {
+      "seed": 7,
+      "hook": "char",
+      "callsReturningStrings": 724,
+      "maximumReturnedBytes": 2,
+      "exactLexicalValues": 2,
+      "exactLongValues": 0,
+      "lifecycle": true
+    },
+    {
+      "seed": 7,
+      "hook": "sub",
+      "callsReturningStrings": 1127,
+      "maximumReturnedBytes": 1,
+      "exactLexicalValues": 2,
+      "exactLongValues": 0,
+      "lifecycle": true
+    },
+    {
+      "seed": 7,
+      "hook": "format",
+      "callsReturningStrings": 900,
+      "maximumReturnedBytes": 1,
+      "exactLexicalValues": 1,
+      "exactLongValues": 0,
+      "lifecycle": true
+    },
+    {
+      "seed": 7,
+      "hook": "concat",
+      "callsReturningStrings": 0,
+      "maximumReturnedBytes": 0,
+      "exactLexicalValues": 0,
+      "exactLongValues": 0,
+      "lifecycle": true
+    },
+    {
+      "seed": 42,
+      "hook": "char",
+      "callsReturningStrings": 959,
+      "maximumReturnedBytes": 2,
+      "exactLexicalValues": 2,
+      "exactLongValues": 0,
+      "lifecycle": true
+    },
+    {
+      "seed": 42,
+      "hook": "sub",
+      "callsReturningStrings": 1015,
+      "maximumReturnedBytes": 1,
+      "exactLexicalValues": 2,
+      "exactLongValues": 0,
+      "lifecycle": true
+    },
+    {
+      "seed": 42,
+      "hook": "format",
+      "callsReturningStrings": 777,
+      "maximumReturnedBytes": 1,
+      "exactLexicalValues": 1,
+      "exactLongValues": 0,
+      "lifecycle": true
+    },
+    {
+      "seed": 42,
+      "hook": "concat",
+      "callsReturningStrings": 0,
+      "maximumReturnedBytes": 0,
+      "exactLexicalValues": 0,
+      "exactLongValues": 0,
+      "lifecycle": true
+    },
+    {
+      "seed": 1337,
+      "hook": "char",
+      "callsReturningStrings": 792,
+      "maximumReturnedBytes": 2,
+      "exactLexicalValues": 2,
+      "exactLongValues": 0,
+      "lifecycle": true
+    },
+    {
+      "seed": 1337,
+      "hook": "sub",
+      "callsReturningStrings": 1148,
+      "maximumReturnedBytes": 1,
+      "exactLexicalValues": 1,
+      "exactLongValues": 0,
+      "lifecycle": true
+    },
+    {
+      "seed": 1337,
+      "hook": "format",
+      "callsReturningStrings": 819,
+      "maximumReturnedBytes": 1,
+      "exactLexicalValues": 2,
+      "exactLongValues": 0,
+      "lifecycle": true
+    },
+    {
+      "seed": 1337,
+      "hook": "concat",
+      "callsReturningStrings": 0,
+      "maximumReturnedBytes": 0,
+      "exactLexicalValues": 0,
+      "exactLongValues": 0,
+      "lifecycle": true
+    }
+  ],
+  "comparisons": [
+    {
+      "name": "Luraph v15.1 supplied",
+      "bytes": 334295,
+      "sha256": "f4ea7ae704160f8aa369dd0126dd8c685bb6938cac6d7161f7be9a077dd61ff9",
+      "lines": 3,
+      "functionTokens": 113,
+      "elseifTokens": 335,
+      "directLongLiterals": 1,
+      "longLiteralDenominator": 82,
+      "legacyArithmeticDirectory": false,
+      "decimalStringCharRuns": 0,
+      "fixedWindowRepeat64": {
+        "width": 64,
+        "total": 5087,
+        "repeated": 2,
+        "ratio": 0.00039315903282877927
+      }
+    },
+    {
+      "name": "Lurapy supplied legacy sample",
+      "bytes": 76072,
+      "sha256": "5c4b410a026f502bc6c155656535094ccafb8d863711f8c2f830cdf3d512dde8",
+      "lines": 1,
+      "functionTokens": 168,
+      "elseifTokens": 105,
+      "directLongLiterals": 1,
+      "longLiteralDenominator": 82,
+      "legacyArithmeticDirectory": true,
+      "decimalStringCharRuns": 60,
+      "fixedWindowRepeat64": {
+        "width": 64,
+        "total": 1136,
+        "repeated": 0,
+        "ratio": 0
+      }
+    }
+  ]
+}

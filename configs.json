@@ -1,0 +1,23 @@
+{
+  "$schema": "./configs.schema.json",
+  "platform": "luau",
+  "preset": "medium",
+  "seed": null,
+  "readable": false,
+  "bundle": false,
+  "names": {
+    "minLength": 1,
+    "maxLength": 8,
+    "style": "mangled"
+  },
+  "toggles": {
+    "intenseVm": false,
+    "vmCompression": false,
+    "hardcodeGlobals": false,
+    "confuseNames": false,
+    "debugLib": false,
+    "antiTamper": true,
+    "antiDebug": true,
+    "envLock": true
+  }
+}
